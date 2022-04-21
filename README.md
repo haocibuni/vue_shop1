@@ -1,19 +1,12 @@
-# vue-shop
+### 黑马程序员 电商后台管理系统
 
-## Project setup
-```
-npm install
-```
+#### 2022年4月21日21:32:55
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+完成登录模块，学习内容：
+1. 导入阿里字库
+2. 全局配置axios
+3. 登录后使用 sessionStorage 保存 token
+4. 使用路有导航守卫控制访问权限
+5. 清空token
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
