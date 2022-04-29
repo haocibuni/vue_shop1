@@ -64,7 +64,7 @@ export default {
         if (res.meta.status !== 200) return this.$message.error('登录失败');
         this.$message.success('登录成功');
 
-        console.log(res)
+
         // 1.将 token 保存在 sessionStorage 中
         window.sessionStorage.setItem('token', res.data.token);
         // 2.通过编程式导航跳转到主页
