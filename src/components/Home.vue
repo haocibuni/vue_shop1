@@ -122,6 +122,9 @@ export default {
       margin-left: 10px;
     }
   }
+  .el-button {
+    margin-right: 10px;
+  }
 
 }
 
