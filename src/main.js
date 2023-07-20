@@ -12,7 +12,7 @@ import axios from "axios";
 import {Loading} from "element-ui";
 
 // 2.设置请求的根路径
-axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'http://49.232.199.15:8000/api/private/v1/'
 
 let loadingInstance = null
 
